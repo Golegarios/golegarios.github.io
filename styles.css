@@ -1,8 +1,6 @@
 *{
-    height: auto;
-    width: auto;
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,40 +32,32 @@ body{
 .topbar{
     background-color: #262928;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     width: 100%;
-    display: flex;
+    height: auto;
+    padding: auto;
 
 }
 .topbar a{
     color: #ddd;
+    float: left;
     text-decoration: none;
     font-size: 19px;
-    margin: 1px;
-    padding: 9px 11px;
+    width: auto;
+    padding: 11px 13px;
 }
 .topbar a:hover{
     color: #2f7a48;
-    text-decoration: none;
-    font-size: 19px;
-    margin: 1px;
-    padding: 9px 11px;
+    display: flex;
 }
-a.pri{
-    background-color: #34b887;
+.topbar a.pri{
+    background-color: #2f7a48;
     color: #000;
-    text-decoration: none;
-    font-size: 19px;
-    margin: 1px;
-    padding: 9px 11px;
+    display: flex;
 }
-a.pri:hover{
-    background-color: #34b887;
-    color: #000;
-    text-decoration: none;
-    font-size: 19px;
-    margin: 1px;
-    padding: 9px 11px;
+.topbar a.pri:hover{
+    color: #2f7a48;
+    background-color: #262928;
 }
 footer{
     position: fixed;
