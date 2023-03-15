@@ -1,10 +1,84 @@
 *{
-    width: auto;
     height: auto;
-    margin: 0;
-    padding: 0;
+    width: auto;
+    margin: auto;
+    padding: auto;
 }
 body{
-    background-color: #000;
-    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    color: #ffffff;
+}
+.cont{
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: auto;
+    bottom: auto;
+    margin: auto;
+    padding: auto;
+    display: table;
+}
+.cont p{
+    display: flex;
+    font-size: 29px;
+    padding: 35vh;
+    width: auto;
+}
+.topbar{
+    background-color: #262928;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    display: flex;
+
+}
+.topbar a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 1px;
+    padding: 9px 11px;
+}
+.topbar a:hover{
+    color: #2f7a48;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 1px;
+    padding: 9px 11px;
+}
+a.pri{
+    background-color: #34b887;
+    color: #000;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 1px;
+    padding: 9px 11px;
+}
+a.pri:hover{
+    background-color: #34b887;
+    color: #000;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 1px;
+    padding: 9px 11px;
+}
+footer{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262928;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 4px;
+    width: 100%;
 }
