@@ -48,12 +48,12 @@ body{
     color: #2f7a48;
     display: flex;
 }
-.topbar a.pri{
+a.bttactive{
     background-color: #2f7a48;
     color: #000;
     display: flex;
 }
-.topbar a.pri:hover{
+a.bttactive:hover{
     color: #2f7a48;
     background-color: #262928;
 }
@@ -68,5 +68,6 @@ footer{
     left: 0;
     bottom: 0;
     padding: 4px;
-    width: 100%;
+    border-radius: 80px 80px 5px 5px;
+    width: 20%;
 }
